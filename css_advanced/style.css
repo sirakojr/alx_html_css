@@ -81,4 +81,15 @@ body {
 .faq-inner-right {
   margin-right: 10px;
 }
-
+.faq-inner-left {
+  margin-left: 10px;
+}
+.membership {
+  padding: 20px;
+}
+.mem-button {
+  padding-top: 20px;
+}
+.mem-title {
+  padding-bottom: 20px;
+}
