@@ -1,0 +1,17 @@
+:root {
+  --primary-color: white;
+  --secode-bg-color: #c670ff;
+  --blue-bg-color: #021027;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero-div {
+  background-image: url("resource/Object.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--primary-color);
+}
