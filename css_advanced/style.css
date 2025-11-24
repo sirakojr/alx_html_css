@@ -15,3 +15,20 @@ body {
   background-size: cover;
   color: var(--primary-color);
 }
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-ul li a {
+  color: var(--primary-color);
+}
+.container_1 {
+  text-align: center;
+}
+
