@@ -73,4 +73,12 @@ body {
 .white {
   color: rgba(255, 255, 255, 0.9);
 }
+.faq-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.faq-inner-right {
+  margin-right: 10px;
+}
 
