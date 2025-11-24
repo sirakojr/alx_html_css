@@ -49,4 +49,19 @@ body {
   justify-content: center;
   text-align: center;
 }
+.text-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: start;
+}
+.smail-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+}
+.bg-rose {
+  background-color: var(--secode-bg-color);
+}
 
