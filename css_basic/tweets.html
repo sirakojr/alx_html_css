@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweets ALX</title>
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png">
+            <h1>ALX</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#footer">footer</a></li>
+                <li><a href="#main">main</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>Rename your local master branch to main</h1>
+        <h2><code>git branch -m master main</code></h2>
+        <h3>
+            Instead, we'll have to create a new "main" branch and then delete the
+            old "master" branch. The git push -u origin main command will push the
+            local "main" branch to the remote, regardless of which branch is
+            currently checked out (i.e., regardless of where HEAD is pointing).
+        </h3>
+
+        <p>
+            To change the default branch from master to main both locally and
+            remotely, you'll need to follow these steps: 1. Change the branch name
+            locally: bash git branch -m master main 2. Push the changes to the
+            remote repository: bash git push -u origin main 3.
+        </p>
+
+        <p>
+            Git changed its default branch name from master to main due to concerns
+            about inclusivity and to remove references to terms with problematic
+            historical connotations.
+        </p>
+        <p>
+            In this case, Git does a simple three-way merge, using the two snapshots
+            pointed to by the branch tips and the common ancestor of the two.
+        </p>
+        <p>
+            Instead of just moving the branch pointer forward, Git creates a new
+            snapshot that results from this three-way merge and automatically
+            creates a new commit that points to it.
+        </p>
+        <article>
+            <img src="https://media.istockphoto.com/id/1183574274/photo/beautiful-afro-woman.jpg?s=1024x1024&w=is&k=20&c=nvtwi6jiLTD-Hm3uTETNMJHk74Dj3FL9VoH2tFBi-Qc="
+                alt="">
+            <a href="https://abriham.com.et/">Abriham</a>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    The Tech Landscape in Ethiopia<br /><br />Join us on January 9 for
+                    an insightful discussion on Ethiopia’s tech landscape featuring a
+                    distinguished panel of experts shaping the ecosystem, from 5:00 PM
+                    to 9:00 PM at Capstone ALX Tech Hub, Lideta.<br /><br />RSVP:
+                    <a href="https://t.co/f8MMZpnad3">https://t.co/f8MMZpnad3</a>
+                    <a href="https://t.co/s90f6Ca1X2">pic.twitter.com/s90f6Ca1X2</a>
+                </p>
+                &mdash; ALXEthiopia (@alx_ethiopia)
+                <a href="https://twitter.com/alx_ethiopia/status/1876188231466946967?ref_src=twsrc%5Etfw">January 6,
+                    2025</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="index.html" target="_blank">Tweets</a>
+        </article>
+        <aside>
+            placeholder to add comment thread later
+        </aside>
+    </main>
+    <footer id="footer">
+        <p>Made by Abriham -<a href="https://abriham.com.et" target='_blank'>here</a> </p>
+    </footer>
+</body>
+
+</html>
