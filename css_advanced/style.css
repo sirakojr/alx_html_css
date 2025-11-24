@@ -64,4 +64,13 @@ body {
 .bg-rose {
   background-color: var(--secode-bg-color);
 }
+.bg-blue {
+  background-color: var(--blue-bg-color);
+}
+.rose {
+  color: var(--secode-bg-color);
+}
+.white {
+  color: rgba(255, 255, 255, 0.9);
+}
 
