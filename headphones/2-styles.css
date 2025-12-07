@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  background-image: url(img/headphones_hero_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  padding: 0 10%;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li:hover {
+  color: #ff6565;
+  cursor: pointer;
+}
+
+.hero-text {
+  padding: 0 20%;
+  margin-bottom: 24px;
+}
+
+button {
+  background-color: rgb(237, 50, 215);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 30px 0 40px;
+  border: none;
+}
+
+button:hover,    /* landing page button */
+button:active {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.what-div {
+  text-align: center;
+  padding: 35px 20% 30px;
+}
+
+.what-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 0 10% 50px;
+}
+
+.what-div p {
+  padding: 20px 0 25px;
+}
+
+.what-icons div {
+  text-align: center;
+}
+
+.results-img {
+  background-image: url(img/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.results-icon {
+  display: flex;
+}
+

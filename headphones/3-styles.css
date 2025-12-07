@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  background-image: url(img/headphones_hero_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  padding: 0 10%;
+}
+
+#logo {
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li:hover {
+  color: #ff6565;
+  cursor: pointer;
+}
+
+.hero-text {
+  padding: 0 20%;
+  margin-bottom: 24px;
+}
+
+button {
+  background-color: rgb(237, 50, 215);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 30px 0 40px;
+  border: none;
+}
+
+button:hover,    /* landing page button */
+button:active {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.what-div {
+  text-align: center;
+  padding: 35px 20% 30px;
+}
+
+.what-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 0 10% 50px;
+}
+
+.what-div p {
+  padding: 20px 0 25px;
+}
+
+.what-icons div {
+  text-align: center;
+}
+
+.results-img {
+  background-image: url(img/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.results-icon {
+  display: flex;
+}
+
+.contact-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  max-width: 500px;
+  margin: 15px auto;
+}
+.contact-container h2 {
+  padding: 30px 0;
+  font-weight: 800;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px black;
+  border-radius: 4px;
+  /* Ensures padding doesn't increase width */
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+textarea:focus,
+input:focus {
+  outline: none; /* Removes the default browser outline */
+  /* A darker gray border when focused (decreased in brightness) */
+  border-color: #999;
+}
+
+textarea {
+  resize: vertical; /* Allows vertical resizing of the textarea */
+  /* min-height: 50px; */
+}
+
+.center {
+  text-align: center;
+}
